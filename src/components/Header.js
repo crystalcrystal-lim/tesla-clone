@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from './Nav'
 import './Header.css'
 import WSC from '../assets/WSC.jpg'
 
@@ -10,7 +11,7 @@ const Header = () => {
             </div>
 
             <div className="header__right">
-                <p>menu</p>
+                <Nav/>
             </div>
         </div>
     )
